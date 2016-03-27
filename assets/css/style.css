@@ -1,5 +1,14 @@
 @import 'base/normalize/_main.css';
 
+:root {
+  --clr-default: #222;
+}
+
 body {
-  font-family: sans-serif;
+  color: var(--clr-default);
+  lost-center: 800px;
+}
+
+.u-cf {
+  clear: fix;
 }

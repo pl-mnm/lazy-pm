@@ -8,8 +8,11 @@
     "jade": "^1.0.0",
     "js-pipeline": "0.2.x",
     "jstransformer-marked": "^1.0.0",
+    "lost": "^6.7.2",
     "marked": "0.3.x",
     "postcss": "^5.0.19",
-    "postcss-import": "^8.0.2"
+    "postcss-cssnext": "^2.5.1",
+    "postcss-import": "^8.0.2",
+    "rucksack-css": "^0.8.5"
   }
 }

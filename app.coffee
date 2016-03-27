@@ -3,6 +3,9 @@ css_pipeline    = require 'css-pipeline'
 accord          = require 'accord'
 postcss         = accord.load 'postcss'
 cssimport       = require 'postcss-import'
+cssnext         = require 'postcss-cssnext'
+lost            = require 'lost'
+rucksack        = require 'rucksack-css'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', 'ship.*conf']
@@ -17,6 +20,9 @@ module.exports =
   postcss:
     use: [
       cssimport(path:['assets/css'])
+      cssnext()
+      lost()
+      rucksack()
     ]
 
   'coffee-script':
