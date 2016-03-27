@@ -1,0 +1,15 @@
+{
+  "name": "lazy-afternoon",
+  "description": "A simple boilerplate I use to quickly get started on static sites with Roots and PostCSS",
+  "dependencies": {
+    "accord": "^0.22.2",
+    "coffee-script": "^1.0.0",
+    "css-pipeline": "0.3.x",
+    "jade": "^1.0.0",
+    "js-pipeline": "0.2.x",
+    "jstransformer-marked": "^1.0.0",
+    "marked": "0.3.x",
+    "postcss": "^5.0.19",
+    "postcss-import": "^8.0.2"
+  }
+}

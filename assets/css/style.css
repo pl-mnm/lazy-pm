@@ -1,0 +1,5 @@
+@import 'base/normalize/_main.css';
+
+body {
+  font-family: sans-serif;
+}
