@@ -1,14 +1,4 @@
-@import 'base/normalize/_main.css';
+@import 'assets/css/base/normalize/_main.css';
+/*@import 'assets/css/base/normalize/_forms.css';*/
+@import 'assets/css/tachyons/_tachyons.css';
 
-:root {
-  --clr-default: #222;
-}
-
-body {
-  color: var(--clr-default);
-  lost-center: 800px;
-}
-
-.u-cf {
-  clear: fix;
-}

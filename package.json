@@ -14,5 +14,9 @@
     "postcss-cssnext": "^2.5.1",
     "postcss-import": "^8.0.2",
     "rucksack-css": "^0.8.5"
+  },
+  "devDependencies": {
+    "cssnano": "^3.5.2",
+    "tachyons": "^4.0.0-beta.18"
   }
 }
