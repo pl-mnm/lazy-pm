@@ -21,7 +21,6 @@
   --black-10: rgba(0,0,0,.1);
   --black-05: rgba(0,0,0,.05);
 
-  --white-100: rgba(255,255,255,1);
   --white-90: rgba(255,255,255,.9);
   --white-80: rgba(255,255,255,.8);
   --white-70: rgba(255,255,255,.7);
@@ -32,9 +31,9 @@
   --white-20: rgba(255,255,255,.2);
   --white-10: rgba(255,255,255,.1);
 
-  --transparent: transprent;
+  --transparent: transparent;
 
-  --black: #111;
+  --black: #000;
   --near-black: #111;
   --dark-gray:#333;
   --mid-gray:#555;
@@ -128,6 +127,7 @@
 .bg-light-gray {    background-color: var(--light-gray); }
 .bg-near-white {    background-color: var(--near-white); }
 .bg-white {         background-color: var(--white); }
+.bg-transparent {   background-color: var(--transparent); }
 
 
 /* Skins for specific pseudoclasses */
@@ -154,6 +154,7 @@
 .bg-focus-light-gray:focus { background-color: var(--light-gray); }
 .bg-focus-near-white:focus { background-color: var(--near-white); }
 .bg-focus-white:focus { background-color: var(--white); }
+.bg-focus-transparent:focus { background-color: var(--transparent); }
 
 .hover-black:hover { color: var(--black); }
 .hover-near-black:hover { color: var(--near-black); }
@@ -178,3 +179,4 @@
 .bg-hover-light-gray:hover { background-color: var(--light-gray); }
 .bg-hover-near-white:hover { background-color: var(--near-white); }
 .bg-hover-white:hover { background-color: var(--white); }
+.bg-hover-transparent:hover { background-color: var(--transparent); }

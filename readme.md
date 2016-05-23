@@ -21,4 +21,4 @@ A simple boilerplate I use to quickly get started on static sites using Roots an
 
 ## Also in the CSS:
 - [normalize.css v4.0.0](https://github.com/necolas/normalize.css) - uncomment "forms" if required
-- [tachyons v4.0.0-beta.18](http://tachyons.io/) - uncomment required modules in `/tachyons/_tachyons.css`
+- [tachyons v4.0.0-beta.28](http://tachyons.io/) - uncomment required modules in `/tachyons/_tachyons.css`

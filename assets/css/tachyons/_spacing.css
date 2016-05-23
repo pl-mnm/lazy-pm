@@ -22,7 +22,7 @@
    SPACING
 
    An eight step powers of two scale ranging from 0 to 16rem.
-   Namespaces are composab4e and thus high4y grockab4e - check the legend below
+   Namespaces are composable and thus highly grockable - check the legend below
 
    Legend:
 
@@ -215,7 +215,7 @@
 
 .mv0   {
   margin-top: var(--spacing-none);
-  margin-bottom: var(--spacing-none)rem;
+  margin-bottom: var(--spacing-none);
 }
 .mv1  {
   margin-top: var(--spacing-extra-small);
@@ -361,7 +361,7 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pv1-ns {
+  .ph1-ns {
     padding-left: var(--spacing-extra-small);
     padding-right: var(--spacing-extra-small);
   }
@@ -586,7 +586,7 @@
     padding-left: var(--spacing-none);
     padding-right: var(--spacing-none);
   }
-  .pv1-m {
+  .ph1-m {
     padding-left: var(--spacing-extra-small);
     padding-right: var(--spacing-extra-small);
   }
@@ -662,7 +662,7 @@
 
   .mv0-m {
     margin-top: var(--spacing-none);
-    margin-bottom: var(--spacing-none)rem;
+    margin-bottom: var(--spacing-none);
   }
   .mv1-m {
     margin-top: var(--spacing-extra-small);
@@ -887,7 +887,7 @@
 
   .mv0-l {
     margin-top: var(--spacing-none);
-    margin-bottom: var(--spacing-none)rem;
+    margin-bottom: var(--spacing-none);
   }
   .mv1-l {
     margin-top: var(--spacing-extra-small);
