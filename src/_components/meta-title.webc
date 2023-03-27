@@ -1,0 +1,12 @@
+<!-- https://11ty.webc.fun/recipes/webc-inside-your-head/ -->
+<script webc:type="js"  webc:is="template">
+  let metaTitle;
+
+  if (title) {
+    metaTitle = `${title} — ${site.title}`;
+  } else {
+    metaTitle = site.title;
+  }
+
+  `<title>${metaTitle}</title>`;
+</script>
