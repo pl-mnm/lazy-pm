@@ -1,0 +1,6 @@
+<footer>
+  <script webc:type="js">
+    const now = new Date();
+    
+    `&copy; ${now.getFullYear()} This site yo!`;
+</script>

@@ -1,5 +1,4 @@
 .DS_Store
 node_modules
-public
-*.sublime-project
-*.sublime-workspace
+web
+*.code-workspace
